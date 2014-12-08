@@ -16,5 +16,7 @@ t/yellow.t
 t/yellow-red.t
 t/violet.t
 t/violet-yellow.t
+t/orange.t
+t/orange-yellow.t
 META.yml                                 Module YAML meta-data (added by MakeMaker)
 META.json                                Module JSON meta-data (added by MakeMaker)
