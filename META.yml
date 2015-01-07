@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 7, CPAN::Meta::Converter version 2.141520'
+generated_by: 'ExtUtils::MakeMaker version 7.0505, CPAN::Meta::Converter version 2.143240'
 license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,13 +17,36 @@ no_index:
   directory:
     - t
     - inc
+provides:
+  Map::Tube::Delhi:
+    file: lib/Map/Tube/Delhi.pm
+    version: '0.23'
+  Map::Tube::Delhi::Line::Blue:
+    file: lib/Map/Tube/Delhi/Line/Blue.pm
+    version: '0.23'
+  Map::Tube::Delhi::Line::Green:
+    file: lib/Map/Tube/Delhi/Line/Green.pm
+    version: '0.23'
+  Map::Tube::Delhi::Line::Orange:
+    file: lib/Map/Tube/Delhi/Line/Orange.pm
+    version: '0.23'
+  Map::Tube::Delhi::Line::Red:
+    file: lib/Map/Tube/Delhi/Line/Red.pm
+    version: '0.23'
+  Map::Tube::Delhi::Line::Violet:
+    file: lib/Map/Tube/Delhi/Line/Violet.pm
+    version: '0.23'
+  Map::Tube::Delhi::Line::Yellow:
+    file: lib/Map/Tube/Delhi/Line/Yellow.pm
+    version: '0.23'
 requires:
   File::Share: '0'
   File::ShareDir::Install: '0'
-  Map::Tube: '2.42'
+  Map::Tube: '2.60'
   Moo: '0'
   namespace::clean: '0'
   perl: '5.006'
 resources:
   repository: https://github.com/Manwar/Map-Tube-Delhi.git
-version: '0.22'
+version: '0.23'
+
